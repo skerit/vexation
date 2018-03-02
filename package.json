@@ -1,0 +1,29 @@
+{
+	"name"            : "vexation",
+	"description"     : "A terminal interface API for JavaScript",
+	"author"          : "Jelle De Loecker <jelle@develry.be>",
+	"version"         : "0.1.0-alpha",
+	"repository"      : "skerit/node-skeleton",
+	"license"         : "MIT",
+	"keywords"        : ["terminal"],
+	"contributors"    : [],
+	"main"            : "lib/init.js",
+	"bin"             : "bin/skeleton",
+	"dependencies"    : {
+		"protoblast"  : "~0.5.2"
+	},
+	"devDependencies" : {
+		"codecov"     : "~3.0.0",
+		"istanbul"    : "^0.4.5",
+		"mocha"       : "1.20.x"
+	},
+	"scripts": {
+		"test"            : "node_modules/.bin/mocha --reporter spec",
+		"coverage"        : "./node_modules/istanbul/lib/cli.js cover _mocha",
+		"report-coverage" : "cat ./coverage/lcov.info | coveralls"
+	},
+	"engines": {
+		"node": ">=4.8"
+	},
+	"private": true
+}
