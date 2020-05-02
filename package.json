@@ -13,7 +13,7 @@
 		"protoblast"  : "~0.5.2"
 	},
 	"devDependencies" : {
-		"codecov"     : "~3.0.0",
+		"codecov"     : "~3.6.5",
 		"istanbul"    : "^0.4.5",
 		"mocha"       : "1.20.x"
 	},
