@@ -75,5 +75,12 @@ Please check the [contributing guidelines](.github/contributing.md) for more det
 
 See also the list of [contributors](https://github.com/skerit/vexation/contributors) who participated in this project.
 
+## Lecture
+
+Here's some sites that helped me out:
+
+- [tldp.org's "Colours and Cursor Movement With tput"](https://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/x405.html)
+- 
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/skerit/vexation/LICENSE) file for details.
